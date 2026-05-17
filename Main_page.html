@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ФЭТ РЭКОРДС — Главная</title>
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="header-inner">
+        <a href="Main_page.html" class="logo-link">
+            <img src="img/Group 3.png" class="logo-img" alt="Логотип">
+            <span class="logo-text">ФЭТ<br>РЭКОРДС</span>
+        </a>
+        <div class="burger">
+            <span></span><span></span><span></span>
+        </div>
+    </div>
+</header>
+
+<div class="side-panel">
+    <a href="Main_page.html">Главная</a>
+    <a href="AbtUs_page.html">О нас</a>
+    <a href="Portfolio_page.html">Портфолио</a>
+    <a href="offer_page.html">Услуги</a>
+    <a href="rider_page.html">Райдер</a>
+</div>
+<div class="panel-overlay"></div>
+
+<!-- Модальное окно -->
+<div id="bookingModal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h3>Запись на сессию</h3>
+        <form>
+            <input type="text" placeholder="ФИО" required>
+            <input type="tel" placeholder="Номер телефона" required>
+            <input type="email" placeholder="Почта" required>
+            <button type="submit" class="btn">Отправить заявку</button>
+        </form>
+    </div>
+</div>
+
+<main class="container">
+    <!-- Hero секция -->
+    <section class="hero">
+        <img src="img/СТУДИЯ ФОТО 1.png" alt="Студия">
+        <div class="hero-overlay"></div>
+        <div class="hero-text">
+            <h1>МЫ — СТУДИЯ ЗВУКОЗАПИСИ ФЭТ РЭКОРДС</h1>
+            <p>Наша студия оснащена топовым оборудованием, чтобы гарантировать безупречное качество звука. От винтажных микрофонов до современных цифровых консолей — у нас есть всё для реализации ваших проектов.</p>
+            <button class="btn booking-btn">Записаться на сессию</button>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- Что мы можем — ИНТЕРАКТИВНЫЕ КАРТИНКИ (только картинка ссылка) -->
+    <section>
+        <h2>ЧТО МЫ МОЖЕМ?</h2>
+        <div class="images-row">
+            
+            <!-- Картинка 1 → Услуги (только картинка кликабельна) -->
+            <div class="image-card">
+                <a href="offer_page.html" class="clickable-image">
+                    <div class="image-wrapper">
+                        <img src="img/Rectangle 4.png" alt="Услуги">
+                        <div class="image-overlay"><span>Перейти →</span></div>
+                    </div>
+                </a>
+                <p>Узнай, какие услуги мы можем тебе предложить: от записи вокала до сведения и мастеринга.</p>
+            </div>
+            
+            <!-- Картинка 2 → Портфолио -->
+            <div class="image-card">
+                <a href="Portfolio_page.html" class="clickable-image">
+                    <div class="image-wrapper">
+                        <img src="img/Rectangle 5.png" alt="Портфолио">
+                        <div class="image-overlay"><span>Перейти →</span></div>
+                    </div>
+                </a>
+                <p>Реальные проекты, записанные и сведенные в нашей студии. Оцени качество звучания.</p>
+            </div>
+            
+            <!-- Картинка 3 → О нас -->
+            <div class="image-card">
+                <a href="AbtUs_page.html" class="clickable-image">
+                    <div class="image-wrapper">
+                        <img src="img/Rectangle 6.png" alt="О нас">
+                        <div class="image-overlay"><span>Перейти →</span></div>
+                    </div>
+                </a>
+                <p>Узнай больше о нашей студии, подходе к работе и о людях, которые помогут создать тебе звук.</p>
+            </div>
+            
+            <!-- Картинка 4 → Райдер -->
+            <div class="image-card">
+                <a href="rider_page.html" class="clickable-image">
+                    <div class="image-wrapper">
+                        <img src="img/диски.png" alt="Райдер">
+                        <div class="image-overlay"><span>Перейти →</span></div>
+                    </div>
+                </a>
+                <p>Ознакомься с оборудованием нашей студии и техническими возможностями для записи.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- Наши услуги -->
+    <section>
+        <h2>НАШИ УСЛУГИ:</h2>
+        <div style="display: flex; flex-direction: column; gap: 20px;">
+            <div><strong>ЗАПИСЬ</strong> — Профессиональная запись вокала и инструментов в комфортной студийной атмосфере.</div>
+            <div><strong>СВЕДЕНИЕ</strong> — Соберем все дорожки в единое гармоничное звучание. Баланс, объем и детали.</div>
+            <div><strong>МАСТЕРИНГ</strong> — Финальная обработка трека для идеального звучания на любых устройствах.</div>
+            <div><strong>ПЕСНЯ ПОД КЛЮЧ</strong> — Создадим твой трек с нуля: музыка, текст, запись и продакшн — всё включено.</div>
+        </div>
+        <button class="btn booking-btn" style="margin-top: 30px;">Записаться на сессию</button>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- Примеры работ -->
+    <section>
+        <div style="display: flex; flex-wrap: wrap; gap: 40px;">
+            <div>
+                <img src="img/IMG_9251 2.png" style="width:250px; border-radius:30px;">
+                <p>BOULEVARD DEPO • Sweet Dreams • 2017</p>
+                <button class="btn">Слушать</button>
+            </div>
+            <div>
+                <img src="img/IMG_9255 2.png" style="width:250px; border-radius:30px;">
+                <p>ECCO2K • E • 2019</p>
+                <button class="btn">Слушать</button>
+            </div>
+            <div>
+                <p>Наши работы включают:</p>
+                <ul>
+                    <li>Авторские треки артистов</li>
+                    <li>Записанные и обработанные вокальные партии</li>
+                    <li>Живые инструментальные сессии</li>
+                    <li>Подкаст-проекты и интервью</li>
+                </ul>
+                <p>Ты можешь обратиться к нам за любым вопросом о звукозаписи!</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- Отзывы -->
+    <section>
+        <h2>ВАШИ ОТЗЫВЫ</h2>
+        <div class="reviews-grid">
+            <div class="review-card"><img src="img/Rectangle 7.png" class="review-avatar"><p class="review-text">Все очень профессионально, быстро и качественно!!</p></div>
+            <div class="review-card"><img src="img/Rectangle 8.png" class="review-avatar"><p class="review-text">Очень уютно, хорошо оборудована, несколько залов. Удобно парковаться.</p></div>
+            <div class="review-card"><img src="img/Rectangle 9.png" class="review-avatar"><p class="review-text">Зашкаливают впечатления после посещения! Работают профессионалы.</p></div>
+            <div class="review-card"><img src="img/Rectangle 10.png" class="review-avatar"><p class="review-text">Отличная студия! Профи в своём деле. Рекомендую!</p></div>
+        </div>
+    </section>
+
+    <!-- Форма -->
+    <div class="contact-form-block">
+        <p>Если мы Вам понравились, то оставьте заявку и мы свяжемся с Вами сами ;)</p>
+        <form>
+            <input type="text" placeholder="ФИО">
+            <input type="tel" placeholder="Номер телефона">
+            <input type="email" placeholder="Почта">
+            <button type="submit" class="btn">Отправить</button>
+        </form>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div class="footer-col"><p>Телефон: 8 911 755 75 75</p><p>Почта: f4trec@gmail.com</p></div>
+        <div class="footer-col"><p>Адрес: Г. Санкт-Петербург, Садовая ул., д. 104</p><p>Telegram: @FATRECORDS</p></div>
+        <div class="footer-col footer-logo"><span>ФЭТ РЭКОРДС</span><div class="footer-year">2026 год</div></div>
+    </div>
+</footer>
+
+<script src="js/common.js"></script>
+</body>
+</html>
