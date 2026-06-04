@@ -1,14 +1,14 @@
 
 @font-face {
     font-family: 'Onder';
-    src: url('font/ONDER-REGULAR.TTF') format('truetype');  
+    src: url('/font/onder regular.TTF') format('truetype');  
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Bounded';
-    src: url('font/Bounded-Regular.ttf') format('truetype'); 
+    src: url('/font/bounded regular.ttf') format('truetype'); 
     font-weight: 100 900;
     font-style: normal;
 }
